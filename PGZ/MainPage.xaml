@@ -8,6 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock_Xa" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Xa = " VerticalAlignment="Top" Margin="42,45,0,0" FontSize="36"/>
+        <TextBlock x:Name="textBlockYa" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ya = " VerticalAlignment="Top" Margin="42,92,0,0" FontSize="36"/>
+        <TextBlock x:Name="textBlockSab" HorizontalAlignment="Left" Margin="42,170,0,0" TextWrapping="Wrap" Text="Sab = " VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="42,223,0,0" TextWrapping="Wrap" Text="∟ab = " VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="165,51,0,0"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="165,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="165,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="165,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
